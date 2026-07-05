@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad — Horariss</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65; color: #1a1a24; background: #f7f5f2;
+    max-width: 760px; margin: 0 auto; padding: 40px 22px 80px;
+  }
+  h1 { font-size: 1.8rem; margin-bottom: 4px; }
+  h2 { font-size: 1.2rem; margin-top: 36px; border-bottom: 1px solid #e5e3df; padding-bottom: 6px; }
+  .fecha { color: #6b6b76; font-size: .9rem; margin-bottom: 28px; }
+  a { color: #672eff; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  code { background: #eceaf6; padding: 1px 6px; border-radius: 5px; font-size: .9em; }
+  footer { margin-top: 48px; color: #6b6b76; font-size: .85rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e8e8ea; background: #16161c; }
+    h2 { border-color: #2c2c34; }
+    .fecha, footer { color: #9a9aa4; }
+    code { background: #26262f; }
+    a { color: #a294f9; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Política de Privacidad de Horariss</h1>
+<p class="fecha">Última actualización: 5 de julio de 2026</p>
+
+<p>Esta Política de Privacidad describe cómo la aplicación <strong>Horariss</strong> ("la App", "nosotros") recopila, usa y protege tu información cuando utilizas la aplicación. Al usar Horariss aceptas las prácticas descritas en este documento.</p>
+
+<h2>1. Responsable</h2>
+<p>El responsable del tratamiento de los datos es el desarrollador de Horariss. Para cualquier consulta sobre privacidad puedes escribir a:</p>
+<ul>
+  <li>Correo de contacto: <a href="mailto:319043257@fa.unam.mx">319043257@fa.unam.mx</a></li>
+</ul>
+
+<h2>2. Información que recopilamos</h2>
+<p>Recopilamos únicamente la información necesaria para el funcionamiento de la App:</p>
+<ul>
+  <li><strong>Datos de cuenta:</strong> nombre, correo electrónico y curso que proporcionas al registrarte.</li>
+  <li><strong>Datos de autenticación:</strong> al iniciar sesión con correo o con "Iniciar sesión con Apple", gestionamos tu acceso a través de Firebase Authentication. Si usas Apple, podemos recibir un identificador y, opcionalmente, tu nombre y un correo (que puede ser una dirección de reenvío privada de Apple).</li>
+  <li><strong>Contenido que tú creas:</strong> materias, horarios, días de clase, tareas, registros de asistencia y, de forma opcional, una foto de perfil.</li>
+  <li><strong>Preferencias:</strong> tema visual y ajustes de notificaciones.</li>
+</ul>
+<p>No recopilamos tu ubicación, contactos, ni datos de navegación con fines publicitarios. No usamos rastreadores de terceros con fines de publicidad.</p>
+
+<h2>3. Cómo usamos tu información</h2>
+<ul>
+  <li>Para crear y mantener tu cuenta y permitir el inicio de sesión.</li>
+  <li>Para guardar y sincronizar tu horario, materias y tareas entre tus sesiones y dispositivos.</li>
+  <li>Para enviarte notificaciones locales que te avisan antes de que comiencen tus clases (según los horarios que tú registras).</li>
+  <li>Para ofrecer recomendaciones generadas por inteligencia artificial (ver sección 4).</li>
+</ul>
+
+<h2>4. Función de Inteligencia Artificial</h2>
+<p>Horariss ofrece recomendaciones de estudio generadas por IA. Cuando solicitas una recomendación, el <strong>nombre de la tarea y el nombre de la materia</strong> correspondientes se envían, a través de una función segura en la nube (Firebase Cloud Functions), al proveedor de IA <strong>Anthropic</strong> (modelo Claude) para generar la sugerencia.</p>
+<ul>
+  <li>Solo se envía el texto necesario (nombre de tarea y materia). No se envía tu correo, nombre ni otros datos personales.</li>
+  <li>El procesamiento se realiza en el momento para devolverte la recomendación. Consulta la política de Anthropic en <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">anthropic.com/legal/privacy</a>.</li>
+</ul>
+
+<h2>5. Dónde se almacenan tus datos</h2>
+<p>Tus datos se almacenan mediante los servicios de <strong>Google Firebase</strong> (Authentication y Cloud Firestore), con la base de datos alojada en la región de <strong>México</strong>. Una copia local de tus datos también se guarda en tu dispositivo para que la App funcione sin conexión. El tratamiento por parte de Google se rige por su Política de Privacidad: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a>.</p>
+
+<h2>6. Con quién compartimos información</h2>
+<p>No vendemos tus datos. Los compartimos únicamente con los proveedores necesarios para operar la App:</p>
+<ul>
+  <li><strong>Google Firebase</strong> — autenticación, base de datos y funciones en la nube.</li>
+  <li><strong>Apple</strong> — cuando usas "Iniciar sesión con Apple".</li>
+  <li><strong>Anthropic</strong> — únicamente el texto de la tarea y materia al usar la función de IA.</li>
+</ul>
+
+<h2>7. Notificaciones</h2>
+<p>Las notificaciones de recordatorio de clases se generan de forma <strong>local en tu dispositivo</strong>, a partir de los horarios que registras. Puedes activarlas o desactivarlas en cualquier momento desde el menú <em>Perfil → Notificaciones</em>, o desde los Ajustes de tu iPhone.</p>
+
+<h2>8. Conservación y eliminación de datos</h2>
+<p>Conservamos tus datos mientras mantengas tu cuenta activa. Puedes <strong>eliminar tu cuenta y todos tus datos asociados en cualquier momento</strong> desde la propia App, en <em>Perfil → Eliminar cuenta</em>. Al hacerlo, se borran tu cuenta de autenticación y tu información almacenada en Firebase de forma permanente.</p>
+
+<h2>9. Seguridad</h2>
+<p>La comunicación con nuestros servidores se realiza mediante conexiones cifradas (HTTPS). El acceso a tus datos en la nube está protegido por autenticación. Aun así, ningún sistema es 100 % infalible, por lo que no podemos garantizar una seguridad absoluta.</p>
+
+<h2>10. Menores de edad</h2>
+<p>Horariss está dirigida a estudiantes. Si eres menor de edad, te recomendamos usar la App con el conocimiento y consentimiento de tu madre, padre o tutor. No recopilamos de forma consciente datos de niños sin el consentimiento correspondiente; si crees que un menor nos ha proporcionado datos sin dicho consentimiento, contáctanos para eliminarlos.</p>
+
+<h2>11. Tus derechos</h2>
+<p>Tienes derecho a acceder, corregir o eliminar tu información personal. Puedes editar tus datos dentro de la App o eliminar tu cuenta por completo. Para cualquier solicitud adicional, escríbenos al correo de contacto.</p>
+
+<h2>12. Cambios a esta política</h2>
+<p>Podemos actualizar esta Política de Privacidad ocasionalmente. Publicaremos la versión vigente en esta misma página e indicaremos la fecha de la última actualización en la parte superior.</p>
+
+<h2>13. Contacto</h2>
+<p>Si tienes preguntas sobre esta Política de Privacidad o sobre el manejo de tus datos, escríbenos a <a href="mailto:319043257@fa.unam.mx">319043257@fa.unam.mx</a>.</p>
+
+<footer>© 2026 Horariss. Todos los derechos reservados.</footer>
+
+</body>
+</html>
